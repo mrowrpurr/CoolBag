@@ -16,6 +16,8 @@ Can have MANY Bags!!!
 
 Recipe to make bag
 
+Translations
+
 Allow custom renaming :)
 
 Give each bag its own activator object? which brings up a settings Message?
