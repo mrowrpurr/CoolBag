@@ -1,8 +1,11 @@
 Scriptname CoolBag_Container_BaseForm_Script extends ObjectReference  
 
+int property ContainerIndex auto ; BagIndex
+
 Event OnItemAdded(Form item, int count, ObjectReference itemRef, ObjectReference player)
-    if item == Self
+    Form thisBagsActivator = CoolBag_ActivatorInstances.GetActivator(ContainerIndex)
+    if item == thisBagsActivator
         Debug.Notification("Cannot put bag into itself")
-        RemoveItem(Self, akOtherContainer = player)
+        RemoveItem(thisBagsActivator, akOtherContainer = player)
     endIf
 EndEvent

@@ -6,11 +6,7 @@ Bag of Holding for Skyrim (example mod)
 
 Move barrels into test cell and GET RID OF OUR CELL! (ESL-ify!)
 
-Rename the mod!
-
 Rename item to [Bag of Holding]
-
-Cannot put bag in bag <-----
 
 Can have MANY Bags!!!
 
