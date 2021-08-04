@@ -11,9 +11,9 @@ ObjectReference function GetContainer(int index) global
 endFunction
 
 ObjectReference function GetContainer1() global
-    return CoolBag_Util.GetModForm(0xd6e) as ObjectReference
+    return CoolBag_Util.GetModForm(0x3dec) as ObjectReference
 endFunction
 
 ObjectReference function GetContainer2() global
-    return CoolBag_Util.GetModForm(0xd6c) as ObjectReference
+    return CoolBag_Util.GetModForm(0x3ded) as ObjectReference
 endFunction
