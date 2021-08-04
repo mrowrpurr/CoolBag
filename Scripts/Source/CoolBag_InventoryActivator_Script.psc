@@ -1,5 +1,7 @@
 scriptName CoolBag_InventoryActivator_Script extends ObjectReference  
 
+bool property StoreAlchemyIngredients auto
+
 int property ContainerIndex auto ; BagIndex
 int L_SHIFT_KEY = 42
 int R_SHIFT_KEY = 54
